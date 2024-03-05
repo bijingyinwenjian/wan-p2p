@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="wanxinp2p-gateway-server" />
+        <module name="wanxinp2p-api" />
+        <module name="wanxinp2p-consumer-service" />
+        <module name="wanxinp2p-account-service" />
+        <module name="wanxinp2p-common" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="wanxinp2paccount-service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="wanxinp2p-account-service" options="-parameters" />
+      <module name="wanxinp2p-api" options="-parameters" />
+      <module name="wanxinp2p-common" options="-parameters" />
+      <module name="wanxinp2p-consumer-service" options="-parameters" />
+      <module name="wanxinp2p-gateway-server" options="-parameters" />
+      <module name="wanxinp2paccount-service" options="-parameters" />
+    </option>
+  </component>
+</project>
