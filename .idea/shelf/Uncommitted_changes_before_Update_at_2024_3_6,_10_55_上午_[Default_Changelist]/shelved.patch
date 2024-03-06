@@ -1,0 +1,131 @@
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1709631704893)
++++ b/.idea/vcs.xml	(date 1709631704893)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"e8fac9ea-f0d2-49fe-8e9c-72ba07987d79\" name=\"Default Changelist\" comment=\"\" />\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Class\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"MavenImportPreferences\">\n    <option name=\"generalSettings\">\n      <MavenGeneralSettings>\n        <option name=\"localRepository\" value=\"$MAVEN_REPOSITORY$\" />\n        <option name=\"userSettingsFile\" value=\"$USER_HOME$/.m2/settingsDev.xml\" />\n      </MavenGeneralSettings>\n    </option>\n  </component>\n  <component name=\"ProjectId\" id=\"2dCqRGPUdpmZ0j0lhpxHeh3s7bE\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"RequestMappingsPanelOrder0\" value=\"0\" />\n    <property name=\"RequestMappingsPanelOrder1\" value=\"1\" />\n    <property name=\"RequestMappingsPanelWidth0\" value=\"75\" />\n    <property name=\"RequestMappingsPanelWidth1\" value=\"75\" />\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\n    <property name=\"aspect.path.notification.shown\" value=\"true\" />\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$/wanxinp2p-account-service/src/main/resources\" />\n    <property name=\"project.structure.last.edited\" value=\"Modules\" />\n    <property name=\"project.structure.proportion\" value=\"0.15\" />\n    <property name=\"project.structure.side.proportion\" value=\"0.30216646\" />\n    <property name=\"settings.editor.selected.configurable\" value=\"reference.settings.project.maven.ignored.files\" />\n    <property name=\"vue.rearranger.settings.migration\" value=\"true\" />\n  </component>\n  <component name=\"RecentsManager\">\n    <key name=\"CopyFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/wanxinp2p-account-service/src/main/resources\" />\n      <recent name=\"$PROJECT_DIR$/wanxinp2p-api/src/main/resources\" />\n    </key>\n  </component>\n  <component name=\"RunManager\" selected=\"Spring Boot.ConsumerService\">\n    <configuration default=\"true\" type=\"ArquillianTestNG\" factoryName=\"\" nameIsGenerated=\"true\">\n      <option name=\"arquillianRunConfiguration\">\n        <value>\n          <option name=\"containerStateName\" value=\"\" />\n        </value>\n      </option>\n      <option name=\"TEST_OBJECT\" value=\"CLASS\" />\n      <properties />\n      <listeners />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"ConsumerService\" type=\"SpringBootApplicationConfigurationType\" factoryName=\"Spring Boot\">\n      <module name=\"wanxinp2p-consumer-service\" />\n      <option name=\"SPRING_BOOT_MAIN_CLASS\" value=\"com.sky.wanxinp2p.consumer.ConsumerService\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"GatewayServer\" type=\"SpringBootApplicationConfigurationType\" factoryName=\"Spring Boot\">\n      <module name=\"wanxinp2p-gateway-server\" />\n      <option name=\"SPRING_BOOT_MAIN_CLASS\" value=\"com.sky.wanxinp2p.GatewayServer\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"e8fac9ea-f0d2-49fe-8e9c-72ba07987d79\" name=\"Default Changelist\" comment=\"\" />\n      <created>1709522399762</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1709522399762</updated>\n      <workItem from=\"1709522401635\" duration=\"106000\" />\n      <workItem from=\"1709522516484\" duration=\"3796000\" />\n      <workItem from=\"1709547195980\" duration=\"978000\" />\n      <workItem from=\"1709548194317\" duration=\"7601000\" />\n    </task>\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision cd7c3d5a25f74c38fa07f4c7cc4301e244af4c02)
++++ b/.idea/workspace.xml	(date 1709693711613)
+@@ -4,12 +4,19 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="e8fac9ea-f0d2-49fe-8e9c-72ba07987d79" name="Default Changelist" comment="" />
++    <list default="true" id="e8fac9ea-f0d2-49fe-8e9c-72ba07987d79" name="Default Changelist" comment="init">
++      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+     <option name="LAST_RESOLUTION" value="IGNORE" />
+   </component>
++  <component name="ChangesViewManager">
++    <option name="groupingKeys">
++      <option value="directory" />
++    </option>
++  </component>
+   <component name="FileTemplateManagerImpl">
+     <option name="RECENT_TEMPLATES">
+       <list>
+@@ -17,6 +24,9 @@
+       </list>
+     </option>
+   </component>
++  <component name="Git.Settings">
++    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++  </component>
+   <component name="MavenImportPreferences">
+     <option name="generalSettings">
+       <MavenGeneralSettings>
+@@ -26,6 +36,7 @@
+     </option>
+   </component>
+   <component name="ProjectId" id="2dCqRGPUdpmZ0j0lhpxHeh3s7bE" />
++  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+   <component name="ProjectViewState">
+     <option name="showLibraryContents" value="true" />
+   </component>
+@@ -36,6 +47,7 @@
+     <property name="RequestMappingsPanelWidth1" value="75" />
+     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
++    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+     <property name="WebServerToolWindowFactoryState" value="false" />
+     <property name="aspect.path.notification.shown" value="true" />
+     <property name="last_opened_file_path" value="$PROJECT_DIR$/wanxinp2p-account-service/src/main/resources" />
+@@ -52,19 +64,6 @@
+     </key>
+   </component>
+   <component name="RunManager" selected="Spring Boot.ConsumerService">
+-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+-      <option name="arquillianRunConfiguration">
+-        <value>
+-          <option name="containerStateName" value="" />
+-        </value>
+-      </option>
+-      <option name="TEST_OBJECT" value="CLASS" />
+-      <properties />
+-      <listeners />
+-      <method v="2">
+-        <option name="Make" enabled="true" />
+-      </method>
+-    </configuration>
+     <configuration name="ConsumerService" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+       <module name="wanxinp2p-consumer-service" />
+       <option name="SPRING_BOOT_MAIN_CLASS" value="com.sky.wanxinp2p.consumer.ConsumerService" />
+@@ -91,11 +90,34 @@
+       <workItem from="1709522401635" duration="106000" />
+       <workItem from="1709522516484" duration="3796000" />
+       <workItem from="1709547195980" duration="978000" />
+-      <workItem from="1709548194317" duration="7601000" />
++      <workItem from="1709548194317" duration="7753000" />
++    </task>
++    <task id="LOCAL-00001" summary="init">
++      <created>1709631745357</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1709631745358</updated>
+     </task>
++    <option name="localTasksCounter" value="2" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+     <option name="version" value="3" />
+   </component>
++  <component name="Vcs.Log.Tabs.Properties">
++    <option name="TAB_STATES">
++      <map>
++        <entry key="MAIN">
++          <value>
++            <State />
++          </value>
++        </entry>
++      </map>
++    </option>
++  </component>
++  <component name="VcsManagerConfiguration">
++    <MESSAGE value="init" />
++    <option name="LAST_COMMIT_MESSAGE" value="init" />
++  </component>
+ </project>
+\ No newline at end of file
