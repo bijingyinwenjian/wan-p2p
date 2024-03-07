@@ -13,6 +13,7 @@ import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
@@ -20,6 +21,7 @@ import javax.annotation.Resource;
 @RestController
 @Slf4j
 @Api(value = "统一账号服务", tags = "Account", description = "统一账号服务API")
+@RequestMapping("/account")
 public class AccountController implements AccountAPI {
 
     @Resource

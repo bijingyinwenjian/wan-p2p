@@ -1,6 +1,5 @@
 package com.sky.wanxinp2p.common.util;
 
-import cn.itcast.wanxinp2p.common.domain.CodePrefixCode;
 import com.sky.wanxinp2p.common.domain.CodePrefixCode;
 
 import java.util.UUID;
