@@ -4,18 +4,44 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8fac9ea-f0d2-49fe-8e9c-72ba07987d79" name="Default Changelist" comment="" />
+    <list default="true" id="e8fac9ea-f0d2-49fe-8e9c-72ba07987d79" name="Default Changelist" comment="init">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/资料.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wanxinp2p-account-service/src/main/java/com/sky/wanxinp2p/account/controller/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/wanxinp2p-account-service/src/main/java/com/sky/wanxinp2p/account/controller/AccountController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wanxinp2p-account-service/src/main/java/com/sky/wanxinp2p/account/service/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/wanxinp2p-account-service/src/main/java/com/sky/wanxinp2p/account/service/AccountService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wanxinp2p-account-service/src/main/java/com/sky/wanxinp2p/account/service/AccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/wanxinp2p-account-service/src/main/java/com/sky/wanxinp2p/account/service/AccountServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wanxinp2p-account-service/src/main/java/com/sky/wanxinp2p/account/service/SmsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/wanxinp2p-account-service/src/main/java/com/sky/wanxinp2p/account/service/SmsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wanxinp2p-account-service/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/wanxinp2p-account-service/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wanxinp2p-api/src/main/java/com/sky/wanxinp2p/account/AccountAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/wanxinp2p-api/src/main/java/com/sky/wanxinp2p/account/AccountAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wanxinp2p-consumer-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/wanxinp2p-consumer-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wanxinp2p-consumer-service/src/main/java/com/sky/wanxinp2p/consumer/ConsumerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/wanxinp2p-consumer-service/src/main/java/com/sky/wanxinp2p/consumer/ConsumerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wanxinp2p-consumer-service/src/main/java/com/sky/wanxinp2p/consumer/controller/ConsumerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/wanxinp2p-consumer-service/src/main/java/com/sky/wanxinp2p/consumer/controller/ConsumerController.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
+        <option value="Mybatis Mapper" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -26,6 +52,9 @@
     </option>
   </component>
   <component name="ProjectId" id="2dCqRGPUdpmZ0j0lhpxHeh3s7bE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -36,9 +65,10 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/wanxinp2p-account-service/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/wanxinp2p-account-service/src/main/java/com/sky/wanxinp2p/account/common" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.30216646" />
@@ -47,20 +77,28 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/wanxinp2p-account-service/src/main/java/com/sky/wanxinp2p/account/common" />
+      <recent name="$PROJECT_DIR$/wanxinp2p-api/src/main/java/com/sky/wanxinp2p/consumer/model" />
+      <recent name="$PROJECT_DIR$/wanxinp2p-api/src/main/java/com/sky/wanxinp2p/account/model" />
       <recent name="$PROJECT_DIR$/wanxinp2p-account-service/src/main/resources" />
       <recent name="$PROJECT_DIR$/wanxinp2p-api/src/main/resources" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/wanxinp2p-consumer-service/src/main/java/com/sky/wanxinp2p/consumer/mapper" />
+      <recent name="$PROJECT_DIR$/wanxinp2p-account-service/src/main/java/com/sky/wanxinp2p/account/mapper" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sky.wanxinp2p.consumer.common" />
+    </key>
   </component>
   <component name="RunManager" selected="Spring Boot.ConsumerService">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -91,11 +129,36 @@
       <workItem from="1709522401635" duration="106000" />
       <workItem from="1709522516484" duration="3796000" />
       <workItem from="1709547195980" duration="978000" />
-      <workItem from="1709548194317" duration="7601000" />
+      <workItem from="1709548194317" duration="7753000" />
+      <workItem from="1709693704474" duration="6744000" />
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1709631745357</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1709631745358</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
 </project>

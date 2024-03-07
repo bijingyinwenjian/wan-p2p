@@ -66,4 +66,10 @@ public class PasswordUtil {
 			return null;
 		}
 	}
+
+	public static void main(String[] args) {
+		String md5Password = generate("18273595827");
+		boolean verify = verify("admin", "c9ed3d27e29562391682311cb17f6283ad8f04a86fc0a474");
+		System.out.println(verify);
+	}
 }

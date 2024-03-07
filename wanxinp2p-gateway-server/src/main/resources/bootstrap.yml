@@ -1,5 +1,5 @@
 server:
-  port: 53050
+  port: 53010
 spring:
   application:
     name: gateway-server
