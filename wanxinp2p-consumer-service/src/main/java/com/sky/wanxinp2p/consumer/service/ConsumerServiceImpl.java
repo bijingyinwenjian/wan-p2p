@@ -1,5 +1,6 @@
 package com.sky.wanxinp2p.consumer.service;
 
+import com.baomidou.mybatisplus.core.toolkit.Wrappers;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.sky.wanxinp2p.account.model.AccountDTO;
 import com.sky.wanxinp2p.account.model.AccountRegisterDTO;
@@ -44,7 +45,7 @@ public class ConsumerServiceImpl extends ServiceImpl<ConsumerMapper, Consumer> i
      * @return
      */
     private ConsumerDTO getByMobile(String mobile, Boolean throwEx) {
-        Consumer consumer = this.getOne(lambdaQuery().eq(Consumer::getMobile, mobile));
+        Consumer consumer = this.getOne(Wrappers.<Consumer>lambdaQuery().eq(Consumer::getMobile, mobile));
         return convertConsumerEntityTODTO(consumer);
     }
 
@@ -70,9 +71,13 @@ public class ConsumerServiceImpl extends ServiceImpl<ConsumerMapper, Consumer> i
         }
         Consumer consumer = new Consumer();
         BeanUtils.copyProperties(consumerRegisterDTO,consumer);
+        consumer.setUsername(CodeNoUtil.getNo(CodePrefixCode.CODE_NO_PREFIX));
+        consumerRegisterDTO.setUsername(consumer.getUsername());
         consumer.setUserNo(CodeNoUtil.getNo(CodePrefixCode.CODE_REQUEST_PREFIX));
         consumer.setIsBindCard(0);
         save(consumer);
+
+
         AccountRegisterDTO accountRegisterDTO = new AccountRegisterDTO();
         BeanUtils.copyProperties(consumerRegisterDTO,accountRegisterDTO);
         RestResponse<AccountDTO> restResponse = accountApiAgent.register(accountRegisterDTO);

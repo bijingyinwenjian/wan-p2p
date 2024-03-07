@@ -1,5 +1,6 @@
 package com.sky.wanxinp2p.account.service;
 
+import com.baomidou.mybatisplus.core.toolkit.Wrappers;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.sky.wanxinp2p.account.common.AccountErrorCode;
 import com.sky.wanxinp2p.account.entity.Account;
@@ -47,7 +48,7 @@ public class AccountServiceImpl extends ServiceImpl<AccountMapper, Account> impl
     @Override
     public Integer checkMobile(String mobile, String key, String code) {
         smsService.verifySmsCode(key,code);
-        Account account = getOne(lambdaQuery().eq(Account::getMobile, mobile));
+        Account account = getOne(Wrappers.<Account>lambdaQuery().eq(Account::getMobile, mobile));
         return account == null ? 0 : 1;
     }
 
@@ -63,7 +64,7 @@ public class AccountServiceImpl extends ServiceImpl<AccountMapper, Account> impl
         account.setMobile(registerDTO.getMobile());
         account.setPassword(PasswordUtil.generate(registerDTO.getPassword()));
         if(smsEnable){
-            account.setPassword(PasswordUtil.generate(registerDTO.getPassword()));
+            account.setPassword(PasswordUtil.generate(registerDTO.getMobile()));
         }
         account.setDomain("c");
         account.setStatus(StatusCode.STATUS_OUT.getCode());
@@ -81,9 +82,9 @@ public class AccountServiceImpl extends ServiceImpl<AccountMapper, Account> impl
     public AccountDTO login(AccountLoginDTO accountLoginDTO) {
         Account account = null;
         if (accountLoginDTO.getDomain().equalsIgnoreCase("c")) {
-            account = getOne(lambdaQuery().eq(Account::getMobile, accountLoginDTO.getMobile()));
+            account = getOne(Wrappers.<Account>lambdaQuery().eq(Account::getMobile, accountLoginDTO.getMobile()));
         }else{
-            account = getOne(lambdaQuery().eq(Account::getUsername, accountLoginDTO.getUsername()));
+            account = getOne(Wrappers.<Account>lambdaQuery().eq(Account::getUsername, accountLoginDTO.getUsername()));
         }
         if (account == null){
             throw new BusinessException(AccountErrorCode.E_130104);

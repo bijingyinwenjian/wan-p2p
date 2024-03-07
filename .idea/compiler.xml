@@ -20,6 +20,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="wanxin-p2p" options="" />
       <module name="wanxinp2p-account-service" options="-parameters" />
       <module name="wanxinp2p-api" options="-parameters" />
       <module name="wanxinp2p-common" options="-parameters" />

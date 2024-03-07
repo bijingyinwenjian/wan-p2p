@@ -11,10 +11,8 @@ import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
 
@@ -24,14 +22,14 @@ import javax.annotation.Resource;
 @RequestMapping("/account")
 public class AccountController implements AccountAPI {
 
-    @Resource
+    @Autowired
     private AccountService accountService;
 
     @Override
     @ApiOperation("获取手机验证码")
     @ApiImplicitParam(name = "mobile", value = "手机号", dataType = "String")
     @GetMapping("/sms/{mobile}")
-    public RestResponse getSMSCode(String mobile) {
+    public RestResponse getSMSCode(@PathVariable("mobile") String mobile) {
         return accountService.getSMSCode(mobile);
     }
 
@@ -45,7 +43,7 @@ public class AccountController implements AccountAPI {
                     "String")})
     @GetMapping(value = "/mobiles/{mobile}/key/{key}/code/{code}")
     @Override
-    public RestResponse<Integer> checkMobile(String mobile, String key, String code) {
+    public RestResponse<Integer> checkMobile(@PathVariable("mobile") String mobile, @PathVariable("key") String key, @PathVariable("code") String code) {
         Integer integer = accountService.checkMobile(mobile, key, code);
         return RestResponse.success(integer);
     }
@@ -56,7 +54,7 @@ public class AccountController implements AccountAPI {
             dataType = "AccountRegisterDTO", paramType = "body")
     @PostMapping(value = "/l/accounts")
     @Override
-    public RestResponse<AccountDTO> register(AccountRegisterDTO accountRegisterDTO) {
+    public RestResponse<AccountDTO> register(@RequestBody AccountRegisterDTO accountRegisterDTO) {
         return RestResponse.success(accountService.register(accountRegisterDTO));
     }
 
