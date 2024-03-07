@@ -1,0 +1,323 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"e8fac9ea-f0d2-49fe-8e9c-72ba07987d79\" name=\"Default Changelist\" comment=\"\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"MavenImportPreferences\">\r\n    <option name=\"generalSettings\">\r\n      <MavenGeneralSettings>\r\n        <option name=\"localRepository\" value=\"$MAVEN_REPOSITORY$\" />\r\n        <option name=\"userSettingsFile\" value=\"$USER_HOME$/.m2/settingsDev.xml\" />\r\n      </MavenGeneralSettings>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2dCqRGPUdpmZ0j0lhpxHeh3s7bE\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"RequestMappingsPanelOrder0\" value=\"0\" />\r\n    <property name=\"RequestMappingsPanelOrder1\" value=\"1\" />\r\n    <property name=\"RequestMappingsPanelWidth0\" value=\"75\" />\r\n    <property name=\"RequestMappingsPanelWidth1\" value=\"75\" />\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\r\n    <property name=\"aspect.path.notification.shown\" value=\"true\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$/wanxinp2p-account-service/src/main/resources\" />\r\n    <property name=\"project.structure.last.edited\" value=\"Modules\" />\r\n    <property name=\"project.structure.proportion\" value=\"0.15\" />\r\n    <property name=\"project.structure.side.proportion\" value=\"0.30216646\" />\r\n    <property name=\"settings.editor.selected.configurable\" value=\"reference.settings.project.maven.ignored.files\" />\r\n    <property name=\"vue.rearranger.settings.migration\" value=\"true\" />\r\n  </component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"$PROJECT_DIR$/wanxinp2p-account-service/src/main/resources\" />\r\n      <recent name=\"$PROJECT_DIR$/wanxinp2p-api/src/main/resources\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Spring Boot.ConsumerService\">\r\n    <configuration default=\"true\" type=\"ArquillianTestNG\" factoryName=\"\" nameIsGenerated=\"true\">\r\n      <option name=\"arquillianRunConfiguration\">\r\n        <value>\r\n          <option name=\"containerStateName\" value=\"\" />\r\n        </value>\r\n      </option>\r\n      <option name=\"TEST_OBJECT\" value=\"CLASS\" />\r\n      <properties />\r\n      <listeners />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"ConsumerService\" type=\"SpringBootApplicationConfigurationType\" factoryName=\"Spring Boot\">\r\n      <module name=\"wanxinp2p-consumer-service\" />\r\n      <option name=\"SPRING_BOOT_MAIN_CLASS\" value=\"com.sky.wanxinp2p.consumer.ConsumerService\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"GatewayServer\" type=\"SpringBootApplicationConfigurationType\" factoryName=\"Spring Boot\">\r\n      <module name=\"wanxinp2p-gateway-server\" />\r\n      <option name=\"SPRING_BOOT_MAIN_CLASS\" value=\"com.sky.wanxinp2p.GatewayServer\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"e8fac9ea-f0d2-49fe-8e9c-72ba07987d79\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1709522399762</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1709522399762</updated>\r\n      <workItem from=\"1709522401635\" duration=\"106000\" />\r\n      <workItem from=\"1709522516484\" duration=\"3796000\" />\r\n      <workItem from=\"1709547195980\" duration=\"978000\" />\r\n      <workItem from=\"1709548194317\" duration=\"7601000\" />\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision b2b9832c75539ffb11867f134c660143956258ca)
++++ b/.idea/workspace.xml	(date 1709686295355)
+@@ -4,67 +4,62 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="e8fac9ea-f0d2-49fe-8e9c-72ba07987d79" name="Default Changelist" comment="" />
++    <list default="true" id="be708dd8-0cf9-4121-b244-417a360179f5" name="Changes" comment="doc">
++      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/wan-p2p.iml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+     <option name="LAST_RESOLUTION" value="IGNORE" />
+   </component>
+-  <component name="FileTemplateManagerImpl">
+-    <option name="RECENT_TEMPLATES">
+-      <list>
+-        <option value="Class" />
+-      </list>
++  <component name="ChangesViewManager">
++    <option name="groupingKeys">
++      <option value="directory" />
+     </option>
+   </component>
++  <component name="Git.Settings">
++    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++  </component>
++  <component name="MarkdownSettingsMigration">
++    <option name="stateVersion" value="1" />
++  </component>
+   <component name="MavenImportPreferences">
+     <option name="generalSettings">
+       <MavenGeneralSettings>
+-        <option name="localRepository" value="$MAVEN_REPOSITORY$" />
+-        <option name="userSettingsFile" value="$USER_HOME$/.m2/settingsDev.xml" />
++        <option name="localRepository" value="D:\Repository" />
++        <option name="useMavenConfig" value="true" />
++        <option name="userSettingsFile" value="D:\develop\apache-maven-3.9.4\conf\settings.xml" />
+       </MavenGeneralSettings>
+     </option>
+   </component>
+-  <component name="ProjectId" id="2dCqRGPUdpmZ0j0lhpxHeh3s7bE" />
+-  <component name="ProjectViewState">
+-    <option name="showLibraryContents" value="true" />
++  <component name="ProjectId" id="2dIARI4tfVvUjlTkacJgAbRJeb0" />
++  <component name="ProjectLevelVcsManager">
++    <ConfirmationsSetting value="1" id="Add" />
+   </component>
+   <component name="PropertiesComponent">
+-    <property name="RequestMappingsPanelOrder0" value="0" />
+-    <property name="RequestMappingsPanelOrder1" value="1" />
+-    <property name="RequestMappingsPanelWidth0" value="75" />
+-    <property name="RequestMappingsPanelWidth1" value="75" />
+-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+-    <property name="WebServerToolWindowFactoryState" value="false" />
+-    <property name="aspect.path.notification.shown" value="true" />
+-    <property name="last_opened_file_path" value="$PROJECT_DIR$/wanxinp2p-account-service/src/main/resources" />
+-    <property name="project.structure.last.edited" value="Modules" />
+-    <property name="project.structure.proportion" value="0.15" />
+-    <property name="project.structure.side.proportion" value="0.30216646" />
+-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.ignored.files" />
+-    <property name="vue.rearranger.settings.migration" value="true" />
++    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
++    <property name="last_opened_file_path" value="$PROJECT_DIR$/wanxinp2p-consumer-service" />
++    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+   </component>
+   <component name="RecentsManager">
+     <key name="CopyFile.RECENT_KEYS">
+-      <recent name="$PROJECT_DIR$/wanxinp2p-account-service/src/main/resources" />
+-      <recent name="$PROJECT_DIR$/wanxinp2p-api/src/main/resources" />
++      <recent name="D:\IdeaCode\MyCode\wan-p2p\doc" />
+     </key>
+   </component>
+-  <component name="RunManager" selected="Spring Boot.ConsumerService">
+-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+-      <option name="arquillianRunConfiguration">
+-        <value>
+-          <option name="containerStateName" value="" />
+-        </value>
+-      </option>
+-      <option name="TEST_OBJECT" value="CLASS" />
+-      <properties />
+-      <listeners />
+-      <method v="2">
+-        <option name="Make" enabled="true" />
+-      </method>
+-    </configuration>
++  <component name="RunDashboard">
++    <option name="configurationTypes">
++      <set>
++        <option value="SpringBootApplicationConfigurationType" />
++      </set>
++    </option>
++  </component>
++  <component name="RunManager" selected="Spring Boot.ConsumerService">
+     <configuration name="ConsumerService" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+       <module name="wanxinp2p-consumer-service" />
+       <option name="SPRING_BOOT_MAIN_CLASS" value="com.sky.wanxinp2p.consumer.ConsumerService" />
+@@ -83,19 +78,39 @@
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="TaskManager">
+     <task active="true" id="Default" summary="Default task">
+-      <changelist id="e8fac9ea-f0d2-49fe-8e9c-72ba07987d79" name="Default Changelist" comment="" />
+-      <created>1709522399762</created>
++      <changelist id="be708dd8-0cf9-4121-b244-417a360179f5" name="Changes" comment="" />
++      <created>1709685209461</created>
+       <option name="number" value="Default" />
+       <option name="presentableId" value="Default" />
+-      <updated>1709522399762</updated>
+-      <workItem from="1709522401635" duration="106000" />
+-      <workItem from="1709522516484" duration="3796000" />
+-      <workItem from="1709547195980" duration="978000" />
+-      <workItem from="1709548194317" duration="7601000" />
++      <updated>1709685209461</updated>
++      <workItem from="1709685211553" duration="999000" />
+     </task>
++    <task id="LOCAL-00001" summary="doc">
++      <created>1709685554974</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1709685554974</updated>
++    </task>
++    <option name="localTasksCounter" value="2" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+     <option name="version" value="3" />
+   </component>
++  <component name="Vcs.Log.Tabs.Properties">
++    <option name="TAB_STATES">
++      <map>
++        <entry key="MAIN">
++          <value>
++            <State />
++          </value>
++        </entry>
++      </map>
++    </option>
++  </component>
++  <component name="VcsManagerConfiguration">
++    <MESSAGE value="doc" />
++    <option name="LAST_COMMIT_MESSAGE" value="doc" />
++  </component>
+ </project>
+\ No newline at end of file
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+new file mode 100644
+--- /dev/null	(date 1709685409322)
++++ b/.idea/modules.xml	(date 1709685409322)
+@@ -0,0 +1,13 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/.idea/wan-p2p.iml" filepath="$PROJECT_DIR$/.idea/wan-p2p.iml" />
++      <module fileurl="file://$PROJECT_DIR$/wanxinp2p-account-service/wanxinp2p-account-service.iml" filepath="$PROJECT_DIR$/wanxinp2p-account-service/wanxinp2p-account-service.iml" />
++      <module fileurl="file://$PROJECT_DIR$/wanxinp2p-api/wanxinp2p-api.iml" filepath="$PROJECT_DIR$/wanxinp2p-api/wanxinp2p-api.iml" />
++      <module fileurl="file://$PROJECT_DIR$/wanxinp2p-common/wanxinp2p-common.iml" filepath="$PROJECT_DIR$/wanxinp2p-common/wanxinp2p-common.iml" />
++      <module fileurl="file://$PROJECT_DIR$/wanxinp2p-consumer-service/wanxinp2p-consumer-service.iml" filepath="$PROJECT_DIR$/wanxinp2p-consumer-service/wanxinp2p-consumer-service.iml" />
++      <module fileurl="file://$PROJECT_DIR$/wanxinp2p-gateway-server/wanxinp2p-gateway-server.iml" filepath="$PROJECT_DIR$/wanxinp2p-gateway-server/wanxinp2p-gateway-server.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ExternalStorageConfigurationManager\" enabled=\"true\" />\r\n  <component name=\"MavenProjectsManager\">\r\n    <option name=\"originalFiles\">\r\n      <list>\r\n        <option value=\"$PROJECT_DIR$/pom.xml\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_1_8\" default=\"true\" project-jdk-name=\"1.8\" project-jdk-type=\"JavaSDK\">\r\n    <output url=\"file://$PROJECT_DIR$/out\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	(revision b2b9832c75539ffb11867f134c660143956258ca)
++++ b/.idea/misc.xml	(date 1709685571274)
+@@ -1,14 +1,18 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+-  <component name="ExternalStorageConfigurationManager" enabled="true" />
+   <component name="MavenProjectsManager">
+     <option name="originalFiles">
+       <list>
+         <option value="$PROJECT_DIR$/pom.xml" />
++        <option value="$PROJECT_DIR$/wanxinp2p-gateway-server/pom.xml" />
++        <option value="$PROJECT_DIR$/wanxinp2p-account-service/pom.xml" />
++        <option value="$PROJECT_DIR$/wanxinp2p-api/pom.xml" />
++        <option value="$PROJECT_DIR$/wanxinp2p-common/pom.xml" />
++        <option value="$PROJECT_DIR$/wanxinp2p-consumer-service/pom.xml" />
+       </list>
+     </option>
+   </component>
+-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17 (2)" project-jdk-type="JavaSDK">
+     <output url="file://$PROJECT_DIR$/out" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: .idea/jarRepositories.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"RemoteRepositoriesConfiguration\">\r\n    <remote-repository>\r\n      <option name=\"id\" value=\"central\" />\r\n      <option name=\"name\" value=\"Central Repository\" />\r\n      <option name=\"url\" value=\"https://repo.maven.apache.org/maven2\" />\r\n    </remote-repository>\r\n    <remote-repository>\r\n      <option name=\"id\" value=\"central\" />\r\n      <option name=\"name\" value=\"Maven Central repository\" />\r\n      <option name=\"url\" value=\"https://repo1.maven.org/maven2\" />\r\n    </remote-repository>\r\n    <remote-repository>\r\n      <option name=\"id\" value=\"jboss.community\" />\r\n      <option name=\"name\" value=\"JBoss Community repository\" />\r\n      <option name=\"url\" value=\"https://repository.jboss.org/nexus/content/repositories/public/\" />\r\n    </remote-repository>\r\n    <remote-repository>\r\n      <option name=\"id\" value=\"central\" />\r\n      <option name=\"name\" value=\"Central Repository\" />\r\n      <option name=\"url\" value=\"https://maven.exworth.group/nexus/content/groups/public/\" />\r\n    </remote-repository>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/jarRepositories.xml b/.idea/jarRepositories.xml
+--- a/.idea/jarRepositories.xml	(revision b2b9832c75539ffb11867f134c660143956258ca)
++++ b/.idea/jarRepositories.xml	(date 1709685678684)
+@@ -21,5 +21,10 @@
+       <option name="name" value="Central Repository" />
+       <option name="url" value="https://maven.exworth.group/nexus/content/groups/public/" />
+     </remote-repository>
++    <remote-repository>
++      <option name="id" value="central" />
++      <option name="name" value="Central Repository" />
++      <option name="url" value="https://maven.aliyun.com/repository/public" />
++    </remote-repository>
+   </component>
+ </project>
+\ No newline at end of file
+Index: .idea/encodings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"Encoding\">\r\n    <file url=\"file://$PROJECT_DIR$/wanxinp2p-account-service/src/main/java\" charset=\"UTF-8\" />\r\n    <file url=\"file://$PROJECT_DIR$/wanxinp2p-account-service/src/main/resources\" charset=\"UTF-8\" />\r\n    <file url=\"file://$PROJECT_DIR$/wanxinp2p-api/src/main/java\" charset=\"UTF-8\" />\r\n    <file url=\"file://$PROJECT_DIR$/wanxinp2p-api/src/main/resources\" charset=\"UTF-8\" />\r\n    <file url=\"file://$PROJECT_DIR$/wanxinp2p-common/src/main/java\" charset=\"UTF-8\" />\r\n    <file url=\"file://$PROJECT_DIR$/wanxinp2p-common/src/main/resources\" charset=\"UTF-8\" />\r\n    <file url=\"file://$PROJECT_DIR$/wanxinp2p-consumer-service/src/main/java\" charset=\"UTF-8\" />\r\n    <file url=\"file://$PROJECT_DIR$/wanxinp2p-consumer-service/src/main/resources\" charset=\"UTF-8\" />\r\n    <file url=\"file://$PROJECT_DIR$/wanxinp2p-gateway-server/src/main/java\" charset=\"UTF-8\" />\r\n    <file url=\"file://$PROJECT_DIR$/wanxinp2p-gateway-server/src/main/resources\" charset=\"UTF-8\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/encodings.xml b/.idea/encodings.xml
+--- a/.idea/encodings.xml	(revision b2b9832c75539ffb11867f134c660143956258ca)
++++ b/.idea/encodings.xml	(date 1709685409337)
+@@ -1,6 +1,8 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="Encoding">
++    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
++    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+     <file url="file://$PROJECT_DIR$/wanxinp2p-account-service/src/main/java" charset="UTF-8" />
+     <file url="file://$PROJECT_DIR$/wanxinp2p-account-service/src/main/resources" charset="UTF-8" />
+     <file url="file://$PROJECT_DIR$/wanxinp2p-api/src/main/java" charset="UTF-8" />
+Index: .idea/compiler.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"CompilerConfiguration\">\r\n    <annotationProcessing>\r\n      <profile default=\"true\" name=\"Default\" enabled=\"true\" />\r\n      <profile name=\"Maven default annotation processors profile\" enabled=\"true\">\r\n        <sourceOutputDir name=\"target/generated-sources/annotations\" />\r\n        <sourceTestOutputDir name=\"target/generated-test-sources/test-annotations\" />\r\n        <outputRelativeToContentRoot value=\"true\" />\r\n        <module name=\"wanxinp2p-gateway-server\" />\r\n        <module name=\"wanxinp2p-api\" />\r\n        <module name=\"wanxinp2p-consumer-service\" />\r\n        <module name=\"wanxinp2p-account-service\" />\r\n        <module name=\"wanxinp2p-common\" />\r\n      </profile>\r\n    </annotationProcessing>\r\n    <bytecodeTargetLevel>\r\n      <module name=\"wanxinp2paccount-service\" target=\"1.8\" />\r\n    </bytecodeTargetLevel>\r\n  </component>\r\n  <component name=\"JavacSettings\">\r\n    <option name=\"ADDITIONAL_OPTIONS_OVERRIDE\">\r\n      <module name=\"wanxinp2p-account-service\" options=\"-parameters\" />\r\n      <module name=\"wanxinp2p-api\" options=\"-parameters\" />\r\n      <module name=\"wanxinp2p-common\" options=\"-parameters\" />\r\n      <module name=\"wanxinp2p-consumer-service\" options=\"-parameters\" />\r\n      <module name=\"wanxinp2p-gateway-server\" options=\"-parameters\" />\r\n      <module name=\"wanxinp2paccount-service\" options=\"-parameters\" />\r\n    </option>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/compiler.xml b/.idea/compiler.xml
+--- a/.idea/compiler.xml	(revision b2b9832c75539ffb11867f134c660143956258ca)
++++ b/.idea/compiler.xml	(date 1709685736189)
+@@ -2,7 +2,6 @@
+ <project version="4">
+   <component name="CompilerConfiguration">
+     <annotationProcessing>
+-      <profile default="true" name="Default" enabled="true" />
+       <profile name="Maven default annotation processors profile" enabled="true">
+         <sourceOutputDir name="target/generated-sources/annotations" />
+         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+@@ -15,7 +14,12 @@
+       </profile>
+     </annotationProcessing>
+     <bytecodeTargetLevel>
+-      <module name="wanxinp2paccount-service" target="1.8" />
++      <module name="wan-p2p" target="1.8" />
++      <module name="wanxinp2p-account-service" target="1.8" />
++      <module name="wanxinp2p-api" target="1.8" />
++      <module name="wanxinp2p-common" target="1.8" />
++      <module name="wanxinp2p-consumer-service" target="1.8" />
++      <module name="wanxinp2p-gateway-server" target="1.8" />
+     </bytecodeTargetLevel>
+   </component>
+   <component name="JavacSettings">
+@@ -25,7 +29,6 @@
+       <module name="wanxinp2p-common" options="-parameters" />
+       <module name="wanxinp2p-consumer-service" options="-parameters" />
+       <module name="wanxinp2p-gateway-server" options="-parameters" />
+-      <module name="wanxinp2paccount-service" options="-parameters" />
+     </option>
+   </component>
+ </project>
+\ No newline at end of file
+Index: .idea/wan-p2p.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/wan-p2p.iml b/.idea/wan-p2p.iml
+new file mode 100644
+--- /dev/null	(date 1709685409290)
++++ b/.idea/wan-p2p.iml	(date 1709685409290)
+@@ -0,0 +1,12 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
++    <output url="file://$MODULE_DIR$/target/classes" />
++    <output-test url="file://$MODULE_DIR$/target/test-classes" />
++    <content url="file://$MODULE_DIR$">
++      <excludeFolder url="file://$MODULE_DIR$/target" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
